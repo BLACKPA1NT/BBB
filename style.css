@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* reset css */
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bbbLogoAni {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+}
+
+.overview {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* padding: 109px 162px 0 162px; */
+}
+
+.overview>h1 {
+    position: absolute;
+    top: 109px;
+    left: 162px;
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.overview>div {
+    position: absolute;
+    top: 383px;
+    left: 162px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    /* 150% */
+}
+
+.bbbInfor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 590px;
+}
+
+.bbbInfor>h1 {
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+}
+
+.bbbInfor>img {
+    margin: 231px 608px 0 608px;
+}
+
+.bbbInfor>div {
+    margin-top: 100px;
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    /* 150% */
+}
+
+.whatBBB {
+    margin-top: 747px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.whatBBB>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plus {
+    margin: 0 140px 0 140px;
+}
+
+.bbb {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.meaning {
+    margin-top: 60px;
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    /* 150% */
+}
+
+.BBBcolor {
+    margin-top: 548px;
+}
+
+.colorobj {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorobj>img {
+    margin: 0 45px 0 45px;
+}
+
+.colorobj>div {
+    color: #BCBCBC;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 116.667% */
+}
+
+.colorMean {
+    margin-top: 162px;
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    /* 150% */
+}
+
+.BBBMidImages {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 687px;
+}
+
+.think {
+    margin-top: 745px;
+}
+
+
+.think>h1 {
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 87.5% */
+}
+
+.posterimages {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 745px;
+}
+
+.apparel {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 427px;
+}
+
+.apparel>h1 {
+    margin-bottom: 120px;
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+}
+
+.bbbline {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.last {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.last>.logo {
+    position: absolute;
+    top: 356px;
+    right: 725px;
+    bottom: 356px;
+    right: 725px;
+}
